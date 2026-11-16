@@ -24,10 +24,16 @@ supports the same scientific conclusions.
 
 ## 2. Contents of this repository
 
+```bash
+git clone https://github.com/trinhthechuong/Ai4Omics.git
+```
+
+
 ```
 data/D1.csv to data/D5.csv         five datasets, 121 patients each
 data/mhc_gene_sets.csv             the 8 MHC class I and 13 MHC class II genes
-QUESTIONS.docx                     the assignment; complete the answer boxes and submit it
+QUESTIONS.pdf                      the assignment, for reading
+QUESTIONS.docx                     the same assignment; type your answers here and submit it
 ```
 
 **D2 is the real cohort of Liu et al.** The other four files are synthetic copies, each produced by a
@@ -106,7 +112,10 @@ Packages used: `pandas`, `numpy`, `scipy`, `statsmodels`, `scikit-learn`, `gseap
 
 ## 6. Submission
 
-Two files, for a total of 20 marks:
+This repository contains two copies of the assignment: `QUESTIONS.pdf` for reading and
+`QUESTIONS.docx` for writing. Type your answers into the answer boxes of `QUESTIONS.docx`.
+
+Two files to submit, for a total of 20 marks:
 
 1. `QUESTIONS.docx` with every answer box completed.
 2. Your Jupyter notebook, exported as PDF or HTML, containing the analyses and figures of Part B and

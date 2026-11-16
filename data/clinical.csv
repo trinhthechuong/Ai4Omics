@@ -1,0 +1,5 @@
+sample_id,diagnosis,age,sex
+S01,normal,42,F
+S02,normal,55,M
+S03,tumour,61,F
+S04,tumour,68,M

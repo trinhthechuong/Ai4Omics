@@ -1,0 +1,9 @@
+sample_id,gene,log2_ratio
+S01,HLA-A,0.02
+S01,B2M,-0.05
+S02,HLA-A,-0.01
+S02,B2M,0.04
+S03,HLA-A,0.31
+S03,B2M,-0.22
+S04,HLA-A,0.27
+S04,B2M,-0.18

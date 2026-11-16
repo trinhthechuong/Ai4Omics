@@ -5,7 +5,7 @@ synthetic copies of it. The assignment asks how much of the published biology su
 
 ## 1. Background
 
-Liu, Schilling et al. profiled 121 metastatic melanoma tumours by RNA-seq before treatment with
+Liu, Schilling et al. profiled 121 metastatic melanoma tumors by RNA-seq before treatment with
 anti-PD1 immunotherapy and asked which transcriptomic features predict response. Their principal
 transcriptomic findings were that MHC class II genes are expressed more highly in responders, that
 this signal is confined to patients previously treated with ipilimumab, and that a three-feature
@@ -54,7 +54,7 @@ Each file contains 121 rows (patients) and 18,814 columns.
 | Columns | Content |
 |---|---|
 | `Patient_ID` | row index, `P001` to `P121`. Carries no meaning. |
-| columns 1 to 54 | clinical and tumour-genomic variables |
+| columns 1 to 54 | clinical and tumor-genomic variables |
 | columns 55 to 18,814 | gene expression, one column per gene symbol, in TPM |
 
 Variables used in the assignment:
@@ -65,7 +65,7 @@ Variables used in the assignment:
 | `daysBiopsyAfterIpiStart` | `noIpi`, `preIpi`, `postIpi`: timing of the biopsy relative to ipilimumab |
 | `PFS`, `progressed` | progression-free survival in days, and the event indicator |
 | `OS`, `dead` | overall survival in days, and the event indicator |
-| `purity`, `ploidy`, `heterogeneity`, `CNA_prop` | tumour genomic characteristics |
+| `purity`, `ploidy`, `heterogeneity`, `CNA_prop` | tumor genomic characteristics |
 | `total_muts`, `nonsyn_muts`, `clonal_muts`, `subclonal_muts`, `total_neoantigens` | mutation and neoantigen counts |
 | `Tx_Start_LDH` | serum LDH at the start of anti-PD1 therapy |
 | `LN_Met` | lymph-node metastasis, 1 or 0 |
@@ -118,7 +118,7 @@ This repository contains two copies of the assignment: `QUESTIONS.pdf` for readi
 Two files to submit, for a total of 20 marks:
 
 1. `QUESTIONS.docx` with every answer box completed.
-2. Your Jupyter notebook, exported as PDF or HTML, containing the analyses and figures of Part B and
+2. Your Jupyter notebook, exported as PDF or HTML, containing the analyzes and figures of Part B and
    running from start to finish.
 
 Every answer in Part B must quote a number that you computed yourself; an answer with no number

@@ -1,0 +1,18 @@
+# Teaching material that must never be published
+private/
+answer_key*
+ANSWER_SHEET*
+dataset_key*
+UPLOAD_CHECKLIST*
+
+# Student work, if anyone clones into this folder
+results_table.csv
+*_answers.docx
+*.ipynb_checkpoints/
+
+# Usual noise
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+.venv/
